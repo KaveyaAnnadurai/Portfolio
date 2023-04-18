@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/74f0a9a506.js" crossorigin="anonymous"></script>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    
+</head>
+<body>
+    <div class="container" id="home">
+       <header>
+        <img src="images/logo.jpg" alt="" height="100px" width="100px">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+       </header>
+       <!-- <div class="img-container"> -->
+        <!-- <img src="images/thumb.jpg" alt="" class="mount"> -->
+        <!-- <img src="images/thumb.jpg" alt="" class="cloud1" width="300px" height="300px"> 
+        <img src="images/thumb.jpg" alt="" class="cloud2"> -->
+       <!-- </div> -->
+       <div class="name">
+            <h1>I'm Kaveya</h1>
+            <p> a (to be) full stack developer.</p>
+       </div>
+       <div class="main-img">
+            <img src="images/developer.jpg">
+       </div>
+
+       <div class="dec-imgs">
+        <img src="images/code.jpg">
+        <img src="images/api.jpg">
+        <img src="images/db.jpg">
+        <img src="images/design.jpg">
+       </div>
+       <!-- header ends -->
+    </div>
+
+    <div class="container" id="about">
+        
+        <div class="info">
+            <div class="info-content">
+                <img src="images/girl-removebg-preview.png" alt="">
+                <h1>Hi.</h1>
+                    <p>Currently I'm doing my internship at M2P Fintech, Chennai. I'm passionate about
+                        full stack development.  </p>
+            </div>
+         </div>
+    </div>
+
+    <div class="container" id="projects">
+       <h1>My work during internship</h1>
+      <div class="wrapper">
+       <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search">
+            <button id="search">Search</button>
+       </div>
+
+       <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value"onclick="filterProduct('Game')">Games</button>
+        <button class="button-value" onclick="filterProduct('Calculator')">Calculator</button>
+        <button class="button-value" onclick="filterProduct('Concept')">Concepts</button>
+        <button class="button-value" onclick="filterProduct('Tdd')">TDD</button>
+       </div>
+       <div id="products"></div>
+
+
+
+        </div>
+
+    </div>  
+       
+    </div>
+      
+    </div>
+    
+    <div class="container" id="contact">
+       <div class="contact-info">
+        <h1>Let's work together.</h1>
+        <h2>Drop me a line</h2>
+        <p></p>
+      
+        <button>  <a id="emailMe" href="mailto:kaveya810@gmail.com">Message</a></button>
+       </div>
+       
+    <div class="footer">
+        <a href="https://github.com/KaveyaAnnadurai" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.instagram.com/kaveya_annadurai/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+        <a href="https://www.linkedin.com/in/kaveya-a-a1b505215/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <p>@2023 Kaveya. All rights reserved.</p>
+    </div>
+    </div>
+<script src="portfolio.js"></script>
+
+</body>
+</html>
