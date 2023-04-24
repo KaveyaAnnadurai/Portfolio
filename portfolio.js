@@ -6,12 +6,24 @@ let products = {
         link:"https://github.com/KaveyaAnnadurai/TDDArithmeticOperations",
         image:"images/tddone.jpg",
       },
+      {
+        productName: "BMI Calculator",
+        category: "Calculator",
+        link:"https://kaveya-bmi-calculator.netlify.app/",
+        image:"images/bmi.jpg",
+      },
      
       {
         productName: "Fizz-Buzz",
         category: "Tdd",
         link:"https://github.com/KaveyaAnnadurai/FizzBuzz",
         image:"images/fizzbuzz.jpg",
+      },
+      {
+        productName: "Age Calculator",
+        category: "Calculator",
+        link:"https://kaveya-age-calculator.netlify.app/",
+        image:"images/age.jpg",
       },
 
       {
@@ -21,11 +33,25 @@ let products = {
         image:"images/calci.jpg",
       },
       {
+        productName: "Captcha Generator",
+        category: "Calculator",
+        link:"https://kaveya-captcha-generator.netlify.app/",
+        image:"images/captcha.jpg",
+      },
+      
+      {
         productName: "Guess the number",
         category: "Game",
         link:"https://kaveya-guess-the-number.netlify.app/",
         
         image: "images/guess.jpg",
+      },
+      {
+        productName: "Guess the word",
+        category: "Game",
+        link:"https://kaveya-guess-word-game.netlify.app/",
+        
+        image: "images/word.jpg",
       },
       {
         productName: "Architecture Problem",
@@ -38,6 +64,13 @@ let products = {
         category: "Concept",
        link:"https://kaveya-forms.netlify.app/",
         image: "images/form.jpg",
+      },
+      {
+        productName: "Typing Master",
+        category: "Game",
+        link:"https://kaveya-typing-test.netlify.app/",
+        
+        image: "images/typing.jpg",
       },
       {
         productName: "Probability TDD",
@@ -100,6 +133,7 @@ let products = {
     let name = document.createElement('a');
     name.classList.add("product-name");
     name.setAttribute("href",i.link);
+
     name.setAttribute("target","_blank");
     name.innerText = i.productName;
     container.appendChild(name);
